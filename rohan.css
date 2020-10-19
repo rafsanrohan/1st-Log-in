@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:#55336F;
+    font-family: 'Raleway', sans-serif;
+}
+.title{
+     text-align: center;
+     margin-right:50px ;
+     margin-left:30px ;
+     margin-top: 100px ;
+     margin-bottom: 30px;
+}
+.title h1 {
+    padding: 0px;
+    color: #55336F;
+    font-size: 25px;
+}
+.title h1:hover{
+    color:#7d6a8c ;
+}
+.container{
+    width: 50%;
+    height: 400px;
+    background-color: white;
+    margin: 0 auto;
+    box-shadow: 0px 15px 40px rgb(0, 0, 0, .5);
+    border-radius: 5px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    
+}
+.right{
+         float: right;
+         width: 50%;
+         height: 400px;
+         background:linear-gradient(#e60b67e6,#b448adeb), url(https://i.pinimg.com/originals/2b/84/53/2b8453d9c9f6e1e1c35dcb523e516478.jpg);
+         background-size: cover;
+         box-sizing: border-box;
+         text-align:center ;
+         border-top-right-radius:5px ;
+         border-bottom-right-radius:5px ;
+
+
+
+}
+.right :hover{
+    color: whitesmoke;
+}
+.left{
+     float: left;
+     width: 50%;
+     height: 400px;
+     box-sizing: border-box;
+}
+.asif{
+    margin-left: 60px;
+
+
+    
+}
+.ionyx{
+      margin-top: 150px;
+      color: white;
+}
+.text{
+    margin-bottom: 10px;
+   /** border: none;
+    outline: none;
+    background: none;
+    **/
+
+}
+.btn{
+    margin-top: 100px;
+    margin-left: 40px;
+}
+.Rohan
+{
+    border: none;
+    outline: none;
+    background: none;
+}
+/**
+.asif input [type="password"]
+{
+    border: none;
+    outline: none;
+    background: none;
+} **/
+input {
+    border: none;
+    outline: none;
+    background: none;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: #55336F;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.501);
+
+   
+
+    
+
+    
+}
+
+input[type="submit" i] {
+    font-size: 10px;
+    appearance: push-button;
+    user-select: none;
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    color: white;
+    background-color: #55336F;
+    padding: 3px 8px;
+    border-color: none;
+    box-shadow: 0px 5px 10px rgb(0, 0, 0, .5);
+    border-radius: 1.5px;
+    padding: 8px 18px 8px 18px;
+    border-bottom: none;
+}
+input[type="submit" i]:hover{
+                        color: white;
+                        background-color:#7e6e8a ;
+                        text-decoration: transparent;
+                        box-shadow: 0px 5px 10px  #2c2b2c ;
+}
+p{
+    margin-top: -1px;
+    font-size: 16px;
+}
+.return{
+         color: #55336F;
+         size: 10px;
+         margin-top: 10px;
+         margin-left: 10px;
+
+
+}
+.return a{
+        color:#55336F ;
+         text-decoration: none;
+         text-transform: none;
+         font-weight: 200%;
+}
+.return :hover{
+    color:#7d6a8c
+}
+.slidbar {
+}
+.slidbar {
+     margin-top: 180px;
+}
+.slidbar :hover{
+              opacity: 1;
+}
+.slidbar{
+        -webkit-appearance:none ;
+        width: 100%;
+        outline: none;
+        opacity: 0.8;
+       -webkit-transform: .2s;
+        transition:opacity .2s;
+}
+.slidbar::-moz-range-thumb{
+    width: 25px;
+    height: 25px;
+    background:red ;
+    cursor: pointer;
+}
+input[type="text" i] {
+    padding: 1px 2px;
+}
+input[type="password" i] {
+    -webkit-text-security: disc !important;
+    padding: 1px 2px;
+}
